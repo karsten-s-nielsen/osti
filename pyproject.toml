@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.21,<2.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -17,11 +17,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Topic :: Scientific/Engineering",
 ]
-dependencies = ["pydantic>=2.10"]
+dependencies = ["pydantic>=2.10,<3.0"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
-docs = ["linkml>=1.8", "linkml-schema-automator>=0.5"]
+docs = ["linkml>=1.8", "schema-automator>=0.5"]
 dev = ["osti[test]", "osti[docs]"]
 
 [tool.hatch.build.targets.wheel]

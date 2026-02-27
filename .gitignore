@@ -43,5 +43,11 @@ docs/
 # Windows artifacts
 nul
 
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
 # Local documents (planning PDFs, not distributed)
 documents/
