@@ -11,13 +11,13 @@ diagrams, player positions, tactical context, and equipment layouts.
 
 ```bash
 # From GitHub (current)
-pip install git+https://github.com/karstenskyt/osti.git
+pip install git+https://github.com/karsten-s-nielsen/osti.git
 
 # From a specific version
-pip install git+https://github.com/karstenskyt/osti.git@v0.1.2
+pip install git+https://github.com/karsten-s-nielsen/osti.git@v0.1.2
 
 # Local development
-git clone https://github.com/karstenskyt/osti.git
+git clone https://github.com/karsten-s-nielsen/osti.git
 cd osti
 pip install -e ".[dev]"
 ```

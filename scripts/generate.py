@@ -25,7 +25,7 @@ def generate_json_schema() -> Path:
     GENERATED.mkdir(exist_ok=True)
 
     schema = SessionPlan.model_json_schema()
-    schema["$id"] = f"https://karstenskyt.github.io/osti/v{SCHEMA_VERSION}/schema.json"
+    schema["$id"] = f"https://karsten-s-nielsen.github.io/osti/v{SCHEMA_VERSION}/schema.json"
     schema["title"] = "OSTI SessionPlan"
     schema["description"] = (
         f"Open Standard for Training Interoperability v{SCHEMA_VERSION} — "
